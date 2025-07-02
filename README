@@ -1,0 +1,25 @@
+# Інструкція
+
+## Cтворити **папку**
+
+~~~bash
+mkdir -p /root/script
+~~~
+
+## Скачати пакети для **розпакування архіву** та **скачування цього архіву**
+
+~~~bash
+pacman -Sy wget unzip
+~~~
+
+## Розпакувати архів та зроити файли **install_v3.sh**, **config_new_system.sh** виконуючим
+
+## Після виконання 1 скріпту **install_v3.sh** зайти в нову систему та запустити *config_new_system.sh*
+
+~~~bash
+arch-chroot /mnt
+./mnt/root/script/config_new_system.sh
+~~~
+
+___
+
