@@ -14,7 +14,7 @@ passwd "$USER"
 echo "adding password for root"
 passwd root
 
-usermod -aG sudo "$USER"
+usermod -aG wheel "$USER"
 
 echo "Configure locale..."
 echo "en_US.UTF-8" | tee -a /etc/locale.gen
