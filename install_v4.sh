@@ -136,7 +136,7 @@ grub-install \$DISK
 grub-mkconfig -o /boot/grub/grub.cfg
 echo "FINIIIIIIISH, suck your **** now, exit to this shell and reboot the system :)"
 exit
-
 EOF
+umount -R /mnt
 echo "Congrat!!!"
 reboot
