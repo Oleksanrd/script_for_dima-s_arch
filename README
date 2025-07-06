@@ -12,14 +12,4 @@ mkdir -p /root/script
 pacman -Sy wget unzip
 ~~~
 
-## Розпакувати архів та зроити файли **install_v3.sh**, **config_new_system.sh** виконуючим
-
-## Після виконання 1 скріпту **install_v3.sh** зайти в нову систему та запустити *config_new_system.sh*
-
-~~~bash
-arch-chroot /mnt
-./mnt/root/script/config_new_system.sh
-~~~
-
-___
-
+## Розпакувати архів та зробити файли **install_v4.sh** виконуючим
