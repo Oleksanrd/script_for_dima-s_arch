@@ -107,7 +107,7 @@ genfstab /mnt >> /mnt/etc/fstab
 
 mkdir -p /mnt/root/script
 
-arch-crhoot /mnt EOF<<
+arch-crhoot /mnt <<EOF
 
 echo "Configuration new system..."
 #цей кусок нада запускати на новій оболонці
