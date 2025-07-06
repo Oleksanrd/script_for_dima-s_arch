@@ -110,7 +110,6 @@ mkdir -p /mnt/root/script
 arch-crhoot /mnt <<EOF
 
 echo "Configuration new system..."
-#цей кусок нада запускати на новій оболонці
 systemctl enable NetworkManager
 systemctl enable sddm
 
@@ -135,8 +134,7 @@ echo "_______DISKS______"
 read -rp "Enter your disk: " DISK
 grub-install "$DISK"
 grub-mkconfig -o /boot/grub/grub.cfg
-echo "FINIIIIIIISH, suck your ****
-Now, exit to this shell and reboot the system :)"
+echo "FINIIIIIIISH, suck your **** now, exit to this shell and reboot the system :)"
 exit
 
 EOF
