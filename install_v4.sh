@@ -107,7 +107,7 @@ genfstab /mnt >> /mnt/etc/fstab
 
 mkdir -p /mnt/root/script
 
-arch-crhoot /mnt <<EOF
+arch-chroot /mnt <<EOF
 
 echo "Configuration new system..."
 systemctl enable NetworkManager
