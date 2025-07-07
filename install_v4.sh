@@ -138,5 +138,4 @@ echo "FINIIIIIIISH, suck your **** now, exit to this shell and reboot the system
 exit
 EOF
 umount -R /mnt
-echo "Congrat!!!"
-reboot
+echo "Congrat!!! Please reboot the system"
